@@ -1,0 +1,87 @@
+.sec-subheading .subheading .orange {
+  color: #DE6E4B;
+}
+
+.sec-subheading .subheading .charcoal {
+  color: #61210F;
+}
+
+.light-bg {
+  background: #FCDEBE;
+}
+.light-alt-bg {
+  background: #E0D3DE;
+}
+.research-icon {
+ height: 75px
+}
+.research-icon img {
+  height: 100%
+}
+
+.copyright {
+  background: #61210F;
+  color: #FCDEBE;
+}
+
+.copyright .to-the-top {
+  color: #FCDEBE;
+}
+
+.navbar-inverse {
+  background: #61210F;
+  color: #FCDEBE;
+}
+
+.navbar-inverse .navbar-brand {
+  color: #FCDEBE;
+}
+
+a .ft-item {
+  color: #777
+}
+
+.navbar-inverse .navbar-nav li a {
+  color: #FCDEBE;
+}
+
+.navbar-inverse .navbar-nav .active a {
+  color: #E0D3DE;
+}
+
+.block-list {
+  list-style-type: none;
+  margin-top: 25px;
+  display: inline-block;
+}
+
+.block-list .small-icon {
+  font-size: 1.5em ;
+  padding: 10px;
+}
+
+.small-icon {
+  font-size: 3.5em;
+}
+
+.twenty-padding {
+  padding: 20px
+}
+
+.block-list li {
+  text-align: left;
+  margin: 10px;f
+}
+
+.no-margin {
+  margin:0px;
+}
+
+.center-text {
+  text-align: center;
+}
+
+
+.h-alt {
+  color: #777;
+}
