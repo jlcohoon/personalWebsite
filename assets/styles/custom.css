@@ -1,11 +1,76 @@
-.sec-subheading .subheading .orange {
-  color: #DE6E4B;
-}
-
-.sec-subheading .subheading .charcoal {
+body {
   color: #61210F;
 }
 
+a {
+  color: #364652;
+}
+
+li >  a:active {
+  color: #364652;
+  border-bottom: 1px solid #E0D3DE;
+}
+
+li >  a:hover {
+  color: #364652;
+  border-bottom: 1px solid #E0D3DE;
+}
+
+p > a:hover {
+  color: #364652;
+  border-bottom: 1px solid #E0D3DE;
+}
+
+p > a:active {
+  color: #364652;
+  border-bottom: 1px solid #E0D3DE;
+}
+
+p > a:visited {
+  color: #364652;
+}
+
+.ft-cards .ft-item a {
+  color: #DE6E4B;
+}
+.ft-cards .ft-item a:hover {
+  color: #E0D3DE;
+}
+.purple {
+  color: # E0D3DE;
+}
+.orange {
+  color: #DE6E4B;
+}
+.charcoal {
+  color: #61210F;
+}
+.btn-light {
+  background: #E0D3DE;
+}
+.btn-light:hover {
+  background: #FCDEBE;
+}
+.btn-light:active {
+  background: #FCDEBE;
+}
+.btn-light:visited {
+  background: #E0D3DE;
+}
+.sec-heading .purple {
+  color: #E0D3DE;
+}
+.sec-heading .orange, .lead .orange {
+  color: #DE6E4B;
+}
+
+.sec-heading .charcoal {
+  color: #61210F;
+}
+
+.hero-content .charcoal {
+  color: #61210F;
+}
 .light-bg {
   background: #FCDEBE;
 }
@@ -81,7 +146,17 @@ a .ft-item {
   text-align: center;
 }
 
+.agency2-hero .bg-overlay {
+  background: rgba(17,17,17,0.2)
+}
 
-.h-alt {
-  color: #777;
+@media only screen and (max-width: 1076px) {
+    #cartoon {
+        height: 50% !important;
+    }
+}
+@media only screen and (max-width: 992px) {
+    #cartoon {
+        display: none;
+    }
 }

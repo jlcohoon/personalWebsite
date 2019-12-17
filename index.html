@@ -61,7 +61,7 @@
               <span class="icon-bar"></span>
             </button>
             <!-- Logo -->
-            <a class="navbar-brand" href="index.html">HANNAH COHOON</a>
+            <a class="navbar-brand" href="index.html"><img src="assets/images/signature.png" style="max-height: 30px"></a>
           </div>
 
           <!-- Navbar Links -->
@@ -69,7 +69,7 @@
             <ul class="nav navbar-nav">
               <li><a href="#home">Home<span class="sr-only"></span></a></li>
               <li><a href="#about">About<span class="sr-only"></span></a></li>
-              <li><a href="#services">Research<span class="sr-only"></span></a></li>
+              <li><a href="#research">Research<span class="sr-only"></span></a></li>
               <li><a href="#cv">CV<span class="sr-only"></span></a></li>
               <li><a href="#contact">Contact<span class="sr-only"></span></a></li>
             </ul><!-- / .nav .navbar-nav -->
@@ -80,19 +80,21 @@
 
         <!-- ========== Hero Cover ========== -->
 
-        <div id="home" class="agency2-hero" style="background-image:url(assets/images/hero-placeholder.png)">
+        <div id="home" class="agency2-hero" style="background-image: url(assets/images/polyBackground.png)">
           <div class="bg-overlay">
 
-            <div id="large-header" class="large-header">
-              <canvas id="demo-canvas" class="demo-canvas"></canvas>
+            <div id="large-header" class="large-header" style="height: 698px;">
+              <canvas id="demo-canvas" class="demo-canvas" width="1083" height="698"></canvas>
 
               <!-- Hero Content -->
               <div class="hero-content-wrapper">
-                <div class="hero-content">
-                  <h1 class="hero-lead">Hannah Cohoon</h1>
-                  <h4 class="h-alt hero-secondary">PhD Candidate, The School of Information at UT Austin</h4>
-                  <a href="#about" class="btn btn-light">CV</a>
+                <div class="hero-content row">
+                  <div class="my-auto col-md-7" style="text-align:left; padding: 50px 0px 0px 50px">
+                      <h1 class="hero-lead" style="color:#61210F">Hannah Cohoon</h1>
+                      <h4 class="charcoal hero-secondary" style="color:#61210F">PhD Candidate, The School of Information at UT Austin</h4>
+                      <a href="#about" class="btn btn-light charcoal">CV</a>
 
+                  </div>
                   <!-- Scroller -->
                   <a href="#about" class="scroller">
                     <span class="scroller-text">scroll down</span>
@@ -104,10 +106,10 @@
 
             </div><!-- / #large-header -->
 
-          </div><!-- / .bg-overlay -->
-        </div><!-- / #home -->
-
-
+          </div>
+<!-- / .bg-overlay -->
+        </div>
+        <img id="cartoon" src="assets/images/headCartoon.png" alt="cartoon drawing of Hannah Cohoon" style="position: absolute;height: 70%;top: 25%;right: 50px;">
 
         <!-- ========== About - Section ========== -->
 
@@ -115,21 +117,25 @@
           <div class="row section">
 
             <header class="sec-heading">
-              <h2>About</h2>
-              <span class="subheading">I study other scientists and how they do their work.</span>
+              <h2 class="charcoal">About</h2>
+              <span class="subheading charcoal">I research other scientists and how they do their work.</span>
             </header>
 
             <div class="col-md-4">
-              <blockquote>The beliefs that are central to [a lab's] mythology are noncontroversial and taken for granted...In the setting, it is difficult to determine whether the mythology is never alluded to because it is a remote and unimportant remnant of the past or because it is now a well-known and generally accepted item of folklore.
-              <footer><cite>Laboratory Life, Latour & Woolgar</cite></footer></blockquote>
+              <p class="lead orange">I study change in scientific practice.</p>
+              <p>After earning my bachelors in Cognitive Science at the University of Virginia, I began work at the Center for Open Science (COS). There, while working on the <a href="RPP">Reproducibility Project: Psychology</a>, I became curious about the ways in which technology and academic culture affect scientists' work. From there, I moved on to the PhD program at UT Austin's School of Information under the mentorship of James Howison. Given this interdisciplinary home, my research is influenced by a variety of fields such as science and technology studies, organization studies, usability research, genre theory, and computer supported cooperative work. Through work at COS and with my advisor as well as research assistant positions in psychology labs at UVA, I have conducted research using qualitative methods such as content analysis and grounded theory as well as quantitative methods using experimental design and surveys.</p>
             </div>
             <div class="col-md-4">
-              <p>After earning my bachelors in Cognitive Science at the University of Virginia, I began work at the Center for Open Science (COS). There, while working on the <a href="RPP">Reproducibility Project: Psychology</a>, I became curious about the ways in which technology and academic culture affect scientists' work. From there, I moved on to the PhD program at UT Austin's School of Information under the mentorship of James Howison. Given this interdisciplinary home, my research is influenced by a variety of fields such as science and technology studies, organization studies, usability research, genre theory, and computer supported cooperative work. Through work at COS and with my advisor as well as research assistant positions in psychology labs at UVA, I have conducted research using qualitative methods such as content analysis and grounded theory as well as quantitative methods using experimental design and surveys. I remain interested in open science and plan to continue studying the forces affecting academic life and research outcomes, examining how explicit and implicit knowledge moves between minds, labs, hard drives, and journals. </p>
+              <p>I remain interested in open science as an example of ongoing change in science and plan to continue studying the forces affecting academic research. In my work I examine how knowledge and research products move and change between minds, labs, hard drives, and journals as well as how those moves might recursively shape the knowledge and products themselves. If scientific research is meant to be a paragon of trustworthiness and unbiased reporting, I ask: What do researchers do to pursue that goal? How does their infrastructure affect their outcomes? And, are do we really all agree on what science is meant to be? </p>
+              <header class="sec-heading" style="margin-top: 100px">
+                <a href="#" class="btn btn-light charcoal" style="background: #FCDEBE">Download My CV</a>
+                <span class="purple subheading">Last updated: August 2019</span>
+              </header>
             </div>
             <div class="col-md-4">
               <p>Outside of professional life, I am a craft dilettante, single-speed cyclist, and patio gardener. My husband, Chris, and I live with our dog, Zula, and cat, Fred, in an increasingly plant filled home in Austin, TX. Always on the lookout for elevation change, I love to travel to find a good trail to explore or mountain to climb.</p>
-              <p>While I usually go by Hannah—a nickname given to me by my palindrome loving father—my legal name, under which I publish, is Johanna Cohoon.</p>
-              <!-- <img src="assets/images/havasupai.jpg" alt="Hannah and her husband Chris hiking at Havasupai Falls."> -->
+              <p>I usually go by Hannah (a nickname given to me by my palindrome loving father). But, my legal name, under which I publish, is Johanna Cohoon.</p>
+              <img src="assets/images/havasupai.jpg" alt="Hannah and her husband Chris hiking at Havasupai Falls." style="width:100%; padding-top: 5px">
             </div>
           </div><!-- / .row -->
         </section><!-- / .container -->
@@ -138,12 +144,12 @@
         <!-- ========== Research ========== -->
 
         <div class="light-bg">
-          <section id="services" class="container ft-cards">
+          <section id="research" class="container ft-cards">
             <div class="row section">
 
               <header class="sec-heading">
-                <h2>Research</h2>
-                <span class="subheading orange">Learn more about my current and past research projects.</span>
+                <h2 class="orange">Research</h2>
+                <span class="subheading orange">Learn more about some current and past research projects.</span>
               </header>
 
               <!-- Item 1 -->
@@ -151,9 +157,9 @@
                 <div class="col-lg-4 col-md-6 mb-sm-50">
                   <div class="ft-item wow fadeInUp" data-wow-duration="1s">
                     <div class="research-icon"><img src="assets/images/rabbits.png"></div>
-                    <h4>Reproducibility Project: Psychology</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur elit adipisicing , sed do eiusmod tempor incididunt ut labore et dolore magnaaliqua. Ut enim ad minimv</p>
-                    <a>Learn more <span class="linea-arrows-slim-right"></span></a>
+                    <h4 class="charcoal">Reproducibility Project: Psychology</h4>
+                    <p>I co-managed several hundred researchers and their replication projects as we worked together to estimate the replicability of psychological research. Our results were published in Science Magazine.</p>
+                    <a href="rpp.html">Learn more <span class="linea-arrows-slim-right"></span></a>
                   </div>
                 </div>
 
@@ -162,9 +168,9 @@
               <div class="col-lg-4 col-md-6 mb-sm-50">
                 <div class="ft-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
                   <div class="research-icon"><img src="assets/images/map.png"></div>
-                  <h4>Transition Project</br>&nbsp;</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur elit adipisicing , sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimv</p>
-                  <a href="#">Learn more <span class="linea-arrows-slim-right"></span></a>
+                  <h4 class="charcoal">Transition Project</br>&nbsp;</h4>
+                  <p>I collected and analyzed qualitative trace and interview data from grant-funded  software projects to study how PIs attempted to make sustainable scientific resources.</p>
+                  <a href="transition.html">Learn more <span class="linea-arrows-slim-right"></span></a>
                 </div>
               </div>
 
@@ -172,9 +178,9 @@
               <div class="col-lg-4 col-md-6 mb-sm-50">
                 <div class="ft-item wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">
                   <div class="research-icon"><img src="assets/images/openLock.png"></div>
-                  <h4>My Dissertation</br>&nbsp;</h4>
-                  <p>Lorem ipsum dolor sit amet, consectetur elit adipisicing , sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minimv</p>
-                  <a href="#">Learn more <span class="linea-arrows-slim-right"></span></a>
+                  <h4 class="charcoal">My Dissertation</br>&nbsp;</h4>
+                  <p>I am interested in how researchers' work practices (like those advocated for by open science) might impact credibility, curation, and communication of knowledge.</p>
+                  <a>More soon!</span></a>
                 </div>
               </div>
 
@@ -189,17 +195,18 @@
           <div class="row section">
             <div class="col-md-6">
               <header class="sec-heading">
-                <a href="#" class="btn btn-light">Download My CV</a>
-                <span class="subheading">Last updated: August 2019</span>
+                <a href="#" class="btn btn-light charcoal">Download My CV</a>
+                <span class="purple subheading">Last updated: August 2019</span>
               </header>
             </div>
 
             <div class="col-md-6">
               <header class="sec-heading no-margin">
-                <h2>Upcoming and Recent News</h2>
+                <h2 class="charcoal">Upcoming and Recent News</h2>
               </header>
                 <ul class="block-list">
-                  <li><span class="small-icon linea-music-microphone-old"></span>4 September 2019: I will present "Open Science as a Value-Driven, Cyberinfrastructure Supported Ethos" (Cohoon & Howison, 2019) at the <a href="https://convention2.allacademic.com/one/ssss/4s19/">2019 annual meeting of the Society for Social Studies of Science (4S)</a></li>
+                  <li><span class="small-icon et-chat"></span>9-13 November 2019: I attended CSCW 2019 and participated in the "Mapping the How of Collaborative Action" workshop.</a></li>
+                  <li><span class="small-icon linea-music-microphone-old"></span>4 September 2019: I presented "Open Science as a Value-Driven, Cyberinfrastructure Supported Ethos" (Cohoon & Howison, 2019) at the <a href="https://convention2.allacademic.com/one/ssss/4s19/">2019 annual meeting of the Society for Social Studies of Science (4S)</a></li>
                   <li><span class="small-icon linea-music-microphone-old"></span>19 July 2019: I served as the keynote speaker for the <a href="https://conferences.lib.utexas.edu/stem19/keynote">2019 STEM Librarians South Conference</a></li>
                   <li><span class="small-icon et-gears"></span>22 July 2019: I attended the <a href="https://conferences.lib.utexas.edu/stem19/keynote">2019 Collegeville Workshop for Sustainable Scientific Software</a></li>
                 </ul>
@@ -212,35 +219,24 @@
 
         <!-- ========== Contact ========== -->
 
-        <div id="testimonials" class="light-alt-bg">
+        <div id="contact" class="light-alt-bg">
           <section class="container testimonials-3col">
 
             <div class="row section">
 
               <!-- Conctact Info-->
-              <div class="col-md-6 mb-sm-50">
+              <div class="col-md-12">
                 <header class="sec-heading no-margin">
-                  <h2>Keep in Touch</h2>
+                  <h2 class="charcoal">Keep in Touch</h2>
                   <span class="subheading charcoal">I look forward to hearing from you.</span>
                 </header>
                 <div class="twenty-padding center-text">
                   <span class="linea-basic-postcard small-icon"></span>
-                  <h6 class="h-alt">jlcohoon@utexas.edu</h6>
-                  <h6 class="h-alt">School of Information at UT Austin: UTA 5.544</h6>
+                  <h6 class="charcoal">jlcohoon@utexas.edu</h6>
+                  <h6 class="charcoal">School of Information at UT Austin: UTA 5.544</h6>
                 </div>
 
               </div>
-
-              <!-- Recent News -->
-              <div class="col-md-6 mb-sm-50">
-                  <blockquote>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae</p>
-                    <footer>
-                      <cite>by Gerald Pena<span>Facebook</span></cite>
-                    </footer>
-                  </blockquote>
-              </div>
-
             </div><!-- / .row -->
           </section><!-- / .container -->
         </div><!-- / .light-alt-bg -->
@@ -249,7 +245,7 @@
 
         <!-- ========== Footer  ========== -->
 
-        <footer id="contact" class="footer-contact">
+        <footer class="footer-contact">
 
 
           <!-- Copyright -->
